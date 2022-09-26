@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:michiapp/widgets/widgets.dart';
 
 class MichiPage extends StatelessWidget {
 
@@ -12,7 +13,18 @@ class MichiPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('the.Michi.com'),
       ),
-      body: Center(child: Text('Michi page')),
+      body: Imagenes(),
+
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 50.0),
+        child: FloatingActionButton.extended(
+          hoverColor: Colors.green,
+          icon: Icon(Icons.new_releases),
+          onPressed: () {  },
+            label: Text('Meow'),
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
