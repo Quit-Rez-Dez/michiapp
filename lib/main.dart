@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:michiapp/Services/locator.dart';
 import 'package:michiapp/pages/michipage.dart';
 
 void main() {
+
+
+  setup();
   runApp(MyApp());
 }
 
