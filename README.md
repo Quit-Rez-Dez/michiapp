@@ -1,13 +1,19 @@
-# michiapp
+# Michiapp
 
 Michi app for AZUMO
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+MICHIapp gives you a random cat from  [cataas](https://cataas.com/#/) every time you push the Meow button
 
-A few resources to get you started if this is your first Flutter project:
+## How i build this project
 
+Firts you need to create a basic skeletor of your app how you whant that your app looks like,create a sketch of it
+I use the refereence of the example in the integration part of the cataas  [page](https://cataas.com/#/integration), here you
+can find an example of an app in [kotlin](https://github.com/allan8araujo/CatApp/tree/appCat)
+
+So I create the button and the container of the image and fit the image to it to start with something.
+    
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
